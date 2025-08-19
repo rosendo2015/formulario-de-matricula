@@ -3,3 +3,25 @@
   padding: 0;
   border-box: box-sizing;
 }
+:root {
+  --font-family: 'Poppins', sans-serif;
+  --text: 400 1rem/1.5 var(--font-family);
+  --text-sm: 400 0.875rem/1.4 var(--font-family);
+
+  --brand-light: #f67841;
+  --brand-mid: #f3541c;
+  --brand-mid: #e43a12;
+
+  --text-primary: #292524;
+  --text-secondary: #575646;
+  --text-tertiary: #8f8881;
+  --text-highlight: #e43a12;
+
+  --surface-primary: #ffffff;
+  --surface-secondary: #fee7d6;
+  --surface-disabled: #e7e5e4;
+
+  --stroke-default: #d6d3d1;
+  --stroke-highlight: #f3541c;
+  --semantic-error: #dc2626;
+}
