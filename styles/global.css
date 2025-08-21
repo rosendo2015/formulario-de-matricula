@@ -13,7 +13,7 @@
   --brand-mid: #e43a12;
 
   --text-primary: #292524;
-  --text-secondary: #575646;
+  --text-secondary: #57534e;
   --text-tertiary: #8f8881;
   --text-highlight: #e43a12;
 
@@ -27,5 +27,23 @@
 }
 
 body {
+  font-family: var(--font-family);
   overflow: hidden;
+  font: var(--text);
+  color: var(--text-secondary);
+}
+h1,
+h2 {
+  color: var(--text-primary);
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--stroke-default);
 }
