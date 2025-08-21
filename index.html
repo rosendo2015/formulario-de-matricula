@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
@@ -21,28 +21,131 @@
                     <img src="assets/icons/arrow-left-02.png" alt="arrow-left-02">
                     <span>Voltar</span>
                 </div>
+                <h1>Formulário de matrícula</h1>
+                <p>
+                    Preencha os dados abaixo para matricular seu filho na escola de educação infantil Estrelas do
+                    Amanhã.
+                </p>
+
+                <form method="post" enctype="multipart/form-data">
+                    <fieldset>
+                        <legend>
+                            Informações da criança
+                        </legend>
+                        <div class="input-wrapper">
+                            <label for="name">Nome completo</label>
+                            <input id="name" name="name" type="text" />
+                        </div>
+                        <div class="input-wrapper">
+                            <label for="nascimento">Data de nascimento</label>
+                            <input id="nascimento" name="nascimento" type="date" lang="pt-BR" />
+                        </div>
+                        <div class="input-wrapper">
+                            <label for="sexo">Sexo</label>
+                            <select name="sexo" id="sexo">
+                                <option value="feminino">Feminino</option>
+                                <option value="masculino">Masculino</option>
+                                <option value="na">Prefiro não informar</option>
+                            </select>
+                        </div>
+                        <div class="textarea-wrapper">
+                            <label for="informacoes">Informações médicas</label>
+                            <textarea name="informacoes" id="informacoes" cols="30" rows="10">
+
+                            </textarea>
+                        </div>
+                        <div class="droparea-wrapper">
+                            <input type="file" name="cartao" id="cartao">
+                            <div>
+                                <img src="assets/icons/cloud-upload.png" alt="">
+                                <p>Clique aqui para <br /> selecionar arquivos</p>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Endereço residencial</legend>
+
+                        <label for="cep">CEP</label>
+                        <input type="text" name="cep" id="cep" />
+                        <div>
+                            <label for="rua">Rua</label>
+                            <input type="text" name="rua" id="rua" />
+
+                            <label for="numero">Número</label>
+                            <input type="text" name="numero" id="numero" />
+                        </div>
+                        <div>
+                            <label for="cidade">Cidade</label>
+                            <input type="text" name="cidade" id="cidade" />
+
+                            <label for="estado">Estado</label>
+                            <input type="text" name="estado" id="estado" />
+                        </div>
+
+                    </fieldset>
+                    <fieldset>
+                        <legend>Informações do responsável</legend>
+
+                        <label for="responsavel">Nome do responsável</label>
+                        <input type="text" name="responsavel" id="responsavel">
+                        <span>Principal responsável legal e contato de emergência</span>
+
+                        <label for="telefone">Telefone </label>
+                        <input type="text" name="telefone" id="telefone">
+
+                        <label for="email">E-mail</label>
+                        <input type="text" name="email" id="email">
+                        <div>
+                            <img src="assets/icons/alert-circle.svg" alt="alert">
+                            <span>Insira um e-mail válido</span>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Opções de matrícula</legend>
+                        <span>Selecione o turno de estudo</span>
+                        <div>
+                            <img src="assets/icons/sun-cloud-02.png" alt="">
+                            <p>Manhã</p>
+                        </div>
+                        <div>
+                            <img src="assets/icons/sun-02.png" alt="">
+                            <p>Tarde</p>
+                        </div>
+
+                        <span>Selecione o turno de estudo</span>
+                        <div>
+                            <img src="assets/icons/football.png" alt="">
+                            <p>Futebol</p>
+                        </div>
+                        <div>
+                            <img src="assets/icons/basketball-02.png" alt="">
+                            <p>Basquete</p>
+                        </div>
+                        <div>
+                            <img src="assets/icons/swimming.png" alt="">
+                            <p>Natação</p>
+                        </div>
+                        <div>
+                            <img src="assets/icons/yoga-02.png" alt="">
+                            <p>Yoga</p>
+                        </div>
+                        <div>
+                            <img src="assets/icons/volleyball.png" alt="">
+                            <p>Volley</p>
+                        </div>
+                        <div>
+                            <img src="assets/icons/boxing-glove-01.png" alt="">
+                            <p>Box</p>
+                        </div>
+                        <div>
+                            Declaro que li e concordo com os Termos e Condições e com a Política de Privacidade da
+                            escola Estrela do Amanhã.
+                        </div>
+                    </fieldset>
+                    <button>Salvar respostas</button>
+                    <button>Fazer matrícula</button>
+                </form>
             </div>
-            <h1>Formulário de matrícula</h1>
-            <p>Preencha os dados abaixo para matricular seu filho na escola de educação infantil Estrelas do Amanhã.</p>
-            <h2>Informações da criança</h2>
-
-            <form action="">
-
-                <label for="name">Nome completo</label>
-                <input id="name" type="text" />
-
-                <label for="nascimento">Data de nascimento</label>
-                <input id="nascimento" type="text" />
-
-                <label for="sexo">Sexo</label>
-                <input type="text" id="sexo" />
-
-                <label for="informacoes">Informações médicas</label>
-                <input type="text-area" name="" id="informacoes" />
-
-                <label for="cartao">Certidão de nascimento</label>
-                <input type="file" name="" id="cartao">
-            </form>
         </main>
         <aside>
             <div class="aside-container">
