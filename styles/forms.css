@@ -25,6 +25,9 @@ legend {
   align-items: center;
   gap: 0.25rem;
 }
+.error {
+  color: var(--semantic-error);
+}
 .flex-1 {
   flex: 1;
 }
