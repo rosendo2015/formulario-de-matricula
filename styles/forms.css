@@ -6,8 +6,28 @@ fieldset {
   display: grid;
   border: none;
   gap: 1.5rem;
+  margin-bottom: 3rem;
 }
 legend {
   font: 600 1rem/1.25 var(--font-family);
   margin-bottom: 1.5rem;
+}
+.input-group-wrapper {
+  display: flex;
+  gap: 1.25rem;
+}
+.input-wrapper {
+  width: 100%;
+}
+.alert {
+  margin-top: 0.25rem;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+.flex-1 {
+  flex: 1;
+}
+.flex-2 {
+  flex: 2;
 }

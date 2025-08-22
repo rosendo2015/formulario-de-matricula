@@ -44,3 +44,6 @@ select {
   background: url(../../assets/icons/arrow-down-01.png) no-repeat
     calc(100% - 1rem);
 }
+.input-wrapper:has([disabled]) {
+  opacity: 0.5;
+}
