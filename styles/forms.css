@@ -16,9 +16,7 @@ legend {
   display: flex;
   gap: 1.25rem;
 }
-.input-wrapper {
-  width: 100%;
-}
+
 .alert {
   margin-top: 0.25rem;
   display: flex;
