@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 :root {
-  --font-family: 'Poppins', sans-serif;
+  --font-family: "Poppins", sans-serif;
   --text: 400 1rem/1.5 var(--font-family);
   --text-sm: 400 0.875rem/1.4 var(--font-family);
 
@@ -27,7 +27,6 @@
 
 body {
   font-family: var(--font-family);
-  overflow: hidden;
   font: var(--text);
   color: var(--text-secondary);
 }
@@ -38,4 +37,28 @@ h2 {
 img {
   max-width: 100%;
   height: auto;
+}
+.only-desktop {
+  display: none;
+}
+aside,
+main {
+  padding: 1.5rem;
+}
+
+aside,
+.aside-container {
+  background-color: var(--surface-secondary);
+}
+@media screen and(width: 1440px) {
+  body {
+    overflow: hidden;
+
+    .aside-container {
+      background-color: var(--surface-primary);
+    }
+    .only-desktop {
+      display: block;
+    }
+  }
 }
