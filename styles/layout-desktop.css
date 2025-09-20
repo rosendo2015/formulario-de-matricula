@@ -47,7 +47,6 @@
   aside {
     min-width: 100%;
     order: 2;
-    margin-left: -5rem;
 
     & .aside-container {
       max-width: 31rem;
