@@ -6,9 +6,23 @@
     height: 100vh;
     overflow: hidden;
   }
+
+  .main-container {
+    max-width: 33.5rem;
+    margin-left: auto;
+    padding: 1.5rem;
+  }
+  .buttonTextVoltar {
+    display: flex;
+    align-items: center;
+  }
+
+  .only-desktop {
+    display: block;
+  }
   main {
     order: 1;
-    padding: 4rem;
+
     overflow: auto;
     & .main-container {
       max-width: 33rem;
@@ -31,9 +45,10 @@
     }
   }
   aside {
+    min-width: 100%;
     order: 2;
+    margin-left: -5rem;
 
-    padding: 4rem;
     & .aside-container {
       max-width: 31rem;
 

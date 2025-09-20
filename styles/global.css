@@ -43,22 +43,28 @@ img {
 }
 aside,
 main {
+  max-width: 85rem;
+  margin-inline: auto;
   padding: 1.5rem;
-}
-
-aside,
-.aside-container {
-  background-color: var(--surface-secondary);
-}
-@media screen and(width: 1440px) {
-  body {
-    overflow: hidden;
-
-    .aside-container {
-      background-color: var(--surface-primary);
-    }
-    .only-desktop {
-      display: block;
-    }
+  .buttonTextVoltar {
+    display: flex;
+    align-items: center;
   }
+}
+aside header {
+  & img {
+    width: 22.5rem;
+  }
+  text-align: center;
+}
+aside {
+  background-color: var(--surface-secondary);
+  max-width: 22.5rem;
+}
+.main-container {
+  max-width: 22.5rem;
+  margin-inline: auto;
+}
+.input-group-wrapper {
+  flex-direction: column;
 }
