@@ -37,6 +37,10 @@
     & p {
       font: var(--text);
     }
+    & .input-group-wrapper {
+      display: flex;
+      flex-direction: row;
+    }
   }
   aside {
     margin: 0;
