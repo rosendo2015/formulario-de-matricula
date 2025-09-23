@@ -55,13 +55,13 @@ aside header {
   & img {
     width: 22.5rem;
   }
-  text-align: center;
 }
 aside {
   background-color: var(--surface-secondary);
   max-width: 22.5rem;
 }
 .main-container {
+  padding-inline: 1.5rem;
   max-width: 22.5rem;
   margin-inline: auto;
 }
